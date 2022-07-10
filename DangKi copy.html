@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<title>Crocs</title>
+
+	<link rel="shortcut icon" href="anh/icon.png">
+	<link rel="stylesheet" href="css/headerfooter.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/dangki.css">
+	<script src="js/DangKi.js"></script>
+</head>
+<body>
+	<header>
+		<ul id="header_Background">
+			
+			<li class="header_content"><img src="anh\logo.png" width="35%"></li>
+			<li class="header_content" ><a href="index.html">TRANG CHỦ</a></li>
+			<li class="header_content"><a href="Nu.html">Nữ</a></li>
+			<li class="header_content"><a href="Nam.html">Nam</a></li>
+			<li class="header_content"><a href="TreEm.html">Trẻ em</a></li>
+			<li>&nbsp;</li>
+			<li class="header_content" style="width: 15%;">
+				<form>
+				<table id="search">
+					<tr>
+						<td><input type="text" placeholder="Từ Khóa" style="width: 95%;"></td>
+						<td><button style="background-color: black;"><i class='bx bx-search-alt-2 bx-xs'></i></button></td>
+					</tr>
+				</table>
+				</form>
+			</li>
+			<li class="header_content" style="width: 2%;"><a href="Dangnhap.html" style="background-color: black;"><i class='bx bx-user bx-xs'></i></a></li>
+			<li class="header_content" style="width: 2%;"><i class='bx bx-shopping-bag bx-xs'></i></li>
+		</ul>
+	</header>
+	<div style="height: 60px; background-color: black"></div>
+
+	
+	<div class="form">
+		<h2>Thông Tin Cá Nhân</h2>
+		<form name="DangkiForm" onsubmit="return checkemail();">
+		<!-- InstanceEndEditable --><!-- center --></td>
+		<table> 	
+
+		<tr><td>Họ tên</td>
+		   <td><input type="text" name="nmFullName" size="50"/></td>
+		</tr>
+		<tr><td>Ngày sinh</td>
+		   <td><input type="date" name="nmBirthDate" /></td>
+		</tr>
+		<tr>
+		  <td>Giới tính</td>
+		  <td width="5px">
+			<div>
+				<input type="radio" name="nmSex" value="nam" />Nam<br/>
+				<input type="radio" name="nmSex" value="nu" />Nữ<br/>
+			</div>
+		  </td>
+		</tr>
+		<tr><td>Địa chỉ email</td>
+		  <td><input type="text" name="email" size="50" /></td>
+		</tr>
+		<tr>
+		  <td>Hình ảnh đại diện</td>
+		  <td><input type="file" name="nmURLAvatar" /></td>
+		</tr>
+		<tr><td>Địa chỉ</td>	
+		  <td><input type="text" name="nmAddress" size="50"/></td>
+		</tr>
+		<tr><td>Điện thoại</td>
+		   <td><input type="tel" name="nmCellphone" size="50"/></td>
+		</tr>
+		
+	</table>
+	<input id="dnb1" type="submit" name="nmSubmit" value="Đăng ký" /> 
+	<input id="dnb2" type="reset" name="nmReset" value="Xóa" />
+	</form>	
+		
+		
+	</div>
+
+	<footer>
+		<p id="cty">
+			CÔNG TY CỔ PHẦN ĐẦU TƯ TIẾP THỊ BẤT ĐỘNG SẢN XUẤT NHẬP KHẨU XUYÊN LỤC ĐỊA CẦU DÉP
+		</p>
+		<p id="truso">
+			MSS: DH51905085
+		</p>
+		<p id="truso">lỚP:  D19_TH08</p>
+		<p id="truso">
+			Điện thoại: 0907344681 | Website: DauTuDep.vn
+		</p>
+	</footer>
+</body>
+</html>

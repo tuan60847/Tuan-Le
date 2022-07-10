@@ -1,0 +1,221 @@
+.largead{
+	margin: 0 10%;
+	height: 350px;
+}
+body{
+	background-color: #deb887;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+
+
+#mot{
+	position: absolute;
+	z-index: 2;
+	animation: doi 10s infinite;
+	height: 350px;
+	width: 79%;
+	
+	
+}
+#hai{
+	width: 79%;
+	height: 350px;
+	
+	z-index: 1;
+	position: absolute;
+	
+}
+
+
+@keyframes doi{
+	0%{opacity: 1;}
+	25%{opacity: 1;}
+	50%{opacity: 0;}
+	75%{opacity: 0;}
+	100%{opacity: 1;}
+}
+.need{
+	padding-top: 30px;
+	margin: 20px auto 0 auto;
+	width: 100%;
+	background-color: #E3E3E3;
+}
+#dau{
+	margin-bottom: 100px;
+	align-items: center;
+	display: inline-table;
+	text-align: center;
+	width: 59%;
+}
+#dau h3{
+	margin-bottom: 10px;
+	align-items: center;
+	font-weight: 500;
+	font-size: 26px;
+	color: #008DFF;
+}
+#dau p{
+	font-weight: 200;
+	font-size: 24px;
+	color: black;
+}
+#thongtin{
+	display: inline-table;
+}
+
+#thongtin p{
+	color: black;
+	font-weight: 400;
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 3px;
+}
+#thongtin form tr td{
+	color: black;
+	font-weight: 400;
+	font-size: 16px;
+	padding-top: 10px;
+	
+}
+#thongtin form tr td input{
+	font-size: 16px;
+	width: 200px;
+	outline: 1px solid grey;
+	padding: 6px 10px;
+	border: 0;
+}
+#dnb1{
+	padding: 10px;
+	background-color: #008DFF;
+}
+#thongtin a{
+	display: block;
+	background-color: #008DFF;
+	color: white;
+	padding: 8px 10px;
+	text-align: center;
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+.people{
+	width: 80%;
+	margin: 30px auto 0 auto;
+}
+
+.the{
+	padding: 20px 0;
+	
+	background-color: #deb887 ;
+	display: inline-block;
+	text-align: center;
+	width: 19%;
+	margin: 5px 0.3%;
+	border-radius: 10%;
+}
+.white_space{
+	padding: 20px 0;
+	outline: 1px solid #deb88700;
+	background: #deb88700;
+	display: inline-block;
+	text-align: center;
+	width: 19%;
+	margin: 15px 0.3%;
+	border-radius: 10%;
+}
+
+.the:hover{
+	
+	box-shadow: 5px 10px rgb(226, 178, 114) ;
+	
+}
+.the a h2{
+	color: red;
+	padding-left: 0px;
+}
+.the a img{
+	width: 95%;
+	border-radius: 10%;
+}
+.the a h3{
+	color: black;
+	padding-bottom: 10px;
+}
+.the a p{
+	text-decoration: none;
+	color: black;
+}
+.people h2{
+	color: black;
+}
+@media screen and (max-width: 1080px) {
+    #dau{
+		width: 100%;
+	}
+	#thongtin{
+		width: 100%;
+		
+	}
+	#thongtin form{
+		margin: 0px 25%;
+	}
+	#thongtin form tr td input{
+		width: 20rem;
+	}
+	.people{
+		width: 90%;
+		margin: 30px auto 0 6%;
+	}
+	.the{
+		width: 24%;
+	}
+	#mot{
+		width: 100%;
+	}
+	#hai{
+		width: 100%;
+	}
+	.largead{
+		margin: 0;
+	}
+	
+}
+
+@media screen and (max-width: 768px) {
+    
+    #dau{
+		width: 100%;
+	}
+	#thongtin{
+		width: 100%;
+		
+	}
+	#thongtin form{
+		margin: 0px 25%;
+	}
+	#thongtin form tr td input{
+		width: 20rem;
+	}
+	.people{
+		width: 90%;
+		margin: 30px auto 0 8%;
+	}
+	.the{
+		width: 40%;
+	}
+	#mot{
+		width: 100%;
+	}
+	#hai{
+		width: 100%;
+	}
+	.largead{
+		margin: 0;
+	}
+}

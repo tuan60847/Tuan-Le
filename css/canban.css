@@ -1,0 +1,131 @@
+
+.ban{
+	width: 80%;
+	margin: 5px auto 0 auto;
+	
+}
+.ban img{
+	width: 80%;
+	display: inline-block;
+	height: 300px;
+}
+.dientt{
+	width: 19%;
+	display: inline-block;
+	vertical-align: top;
+}
+.dientt p{
+	padding-bottom: 0px;
+	font-size: 34px;
+}
+.dientt input{
+	margin: 3px 0;
+	padding: 7px 10px;
+}
+.dientt button{
+	cursor: pointer;
+	color: #008DFF;
+	border: 0;
+	padding: 0 55px;
+	margin: 5px 0;
+}
+
+.than{
+	width: 80%;
+	margin: 0 auto;
+}
+.tich{
+	float: left;
+	width: 23%;
+}
+.tich ul{
+	margin-bottom: 8px;
+	background-color: white;
+	outline: 1px solid #D2D2D2;
+	padding: 10px;
+}
+.tich ul h3{
+	margin-bottom: 6px;
+	padding-bottom: 6px;
+	display: block;
+	font-size: 18px;
+	font-weight: 400;
+	border-bottom: 1px solid #d2d2d2;
+}
+.tich ul li{
+	list-style: none;
+	display: inline-block;
+	width: 49%;
+}
+.tich ul div li{
+	list-style: none;
+	display: inline-block;
+	width: 100%;
+}
+
+.bandat{
+	margin-bottom: 8px;
+	margin-left: 24%;
+	width: 73%;
+	background-color: #deb887;
+	padding: 5px;
+	
+}
+.bandat a{
+	text-decoration: none;
+}
+.bandat a img{
+	display: inline-block;
+	width: 26%;
+	
+}
+
+.trai{
+	display: inline-block;
+	width: 73%;
+	vertical-align: top;
+}
+.trai h3{
+	padding-bottom: 5px;
+	font-size:28px;
+	color: red;
+}
+.trai p{
+	font-size: 20px;
+	color: grey;
+	padding-bottom: 2px;
+}
+.SanPham{
+	padding: 20px 0;
+	
+	background-color: #deb887 ;
+	display: inline-block;
+	text-align: center;
+	width: 24%;
+	margin: 5px 0.3%;
+	border-radius: 10%;
+}
+.SanPham a h2{
+	color: red;
+	padding-left: 0px;
+}
+.SanPham a img{
+	width: 95%;
+	border-radius: 10%;
+}
+.SanPham a h3{
+	color: black;
+	padding-bottom: 10px;
+}
+.SanPham a p{
+	text-decoration: none;
+	color: black;
+}
+.SanPham:hover{
+	
+	box-shadow: 5px 10px rgb(226, 178, 114) ;
+	
+}
+.whiteSanPham{
+	height: 150px;
+}
